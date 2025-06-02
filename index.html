@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cíntia Dietrich Bersch - Desenvolvedor Frontend</title>
+
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">CD</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
+
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 😊,</p>
+            <h1>Sou Cíntia Dietrich Bersch</h1>
+            <h2>Desenvolvedora Frontend</h2>
+
+            <div class="redes-sociais">
+              <a href="https://www.linkedin.com/in/cintia-dietrich-bersch"
+                target="_blank" class="outer-shadow"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <a href="https://wa.me/5553984061888" target="_blank"
+                class="outer-shadow"><i
+                  class="fab fa-whatsapp"></i></a>
+              <a href="https://github.com/devCintia" target="_blank"
+                class="outer-shadow"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/cintia.d.b0/" target="_blank"
+                class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img class="outer-shadow" src="src/imagens/eu.jpg"
+                alt="foto do perfil da Cintia" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img src="src/imagens/euu.jpg" alt="foto sobre mim"
+                class="outer-shadow" />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong>Olá! Me chamo Cíntia Dietrich Bersch e sou uma
+                desenvolvedora frontend em
+                formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso
+              contribuir em qualquer time com as minhas habilidades.
+            </p>
+
+            <p>
+              Estou sempre me desafiando com novos projetos e participando de
+              comunidades de programação para buscar feedback de outros
+              desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+              pessoas com o que eu já aprendi. 😁
+            </p>
+
+            <p>
+              Sempre me interessei pela área de informática como um todo. Mas
+              agora estou totalmente focada na parte de desenvolvimento web. 💜
+            </p>
+
+            <div class="botoes">
+              <a target="_blank" href="/src/arquivos/cv.pdf"
+                class="botao outer-shadow">Veja meu CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Algoritmos e lógica de programação, console, depuração,
+              variáveis, operadores lógicos e matemáticos, laços de repetição,
+              condicionais, funçoes, funções aônimas, arrow function, arrays,
+              objetos, DOM, selecionar elementos através do Document, manipular
+              elementos, manipular atributos e estilos dos elementos, eventos do
+              DOM, filter, map, reduce, template strings, desestruturação de
+              objetos e arrays, spread, Rest, SetInterval, SetTimeOut, síncrono
+              e assíncrono, promises, then, async e await, API, Json, fetch,
+              gerenciamento de pacotes com NPM, módulos, Export, </p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Meta Tags, formatação de texto, links internos e externos,
+              imagens, listas, tabelas, inputs, select, button, tags semânticas,
+              adicionar áudios e vídeos, iframes...</p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>CSS inline, interno e externo; cores, espaçamento interno e
+              externo (padding e margin), bordas, ID's, classes, Divs, unidades
+              de medida, Google fonts, estilizando Links e listas,
+              Posicionamento com display, position, responsividade, media
+              Queries, float, centralização de elementos, Font awesome, Pseudo
+              Classes e Elementos, seletores, transform, variáveis, flexbox,
+              justify content, align itens e content, flex wrap e flow, Gap,
+              Grow, Grid, </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>Git/GitHub</h3>
+            <p>Versionamento de código, git no VS Code, hospedagem dos
+              repositórios no gitHub Pages, Git Clone e Git Pull... </p>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-react-original"></i>
+            </div>
+            <h3>React</h3>
+            <p>Jsx, Componentes de função e de classe, criação usando VITE e
+              Create-react-app, Props, proptypes e defaultProps,prop Chindren,
+              listas no React e prop Key, eventos, States em class components,
+              importância de arrow functions no React, componente stateless e
+              statefull, lifecycle, Hooks, useState, useEffect, renderização
+              condicional, formulários, React Hook Form, rotas, styled
+              components, React query, consumo de API no front-end com Axios
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Alguns de meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a target="_blank" href="https://devcintia.github.io/cantorThiagoFonseca"> 
+              <img src="src/imagens/Thiago.png" 
+                alt="Site Cantor Thiago" title="Clique aqui para ir direto para o site"></abbr>
+              <h3>Projeto pessoal</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML e CSS </p>
+                <a target="_blank" href="https://github.com/devCintia/cantorThiagoFonseca"><p>🔗 Ver no GitHub </p></a>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a target="_blank" href="https://devcintia.github.io/projeto-Pokedevs/"> 
+              <img src="src/imagens/Poke.png" 
+                alt="projeto Pokedevs" title="Clique aqui para ir direto para o site"></abbr>
+              <h3>Projeto de estudo</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML e CSS </p>
+                <a target="_blank" href="https://github.com/devCintia/projeto-Pokedevs"><p>🔗 Ver no GitHub </p></a>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a target="_blank" href="https://tcdesenvolvedorweb.github.io/devchat-global/"> 
+              <img src="src/imagens/DevChat.png" 
+                alt="projeto devChat" title="Clique aqui para ir direto para o site"></abbr>
+              <h3>Projeto feito em grupo</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JS </p>
+                <a target="_blank" href="https://github.com/TCdesenvolvedorWeb/devchat-global"><p>🔗 Ver no GitHub </p></a>
+              </div>
+            </a>
+          </div>
+          <div class="projeto">
+            <a target="_blank" href="https://quest-react-base-fbsxyp0s5-devcintias-projects.vercel.app/"> 
+              <img src="src/imagens/React1.png" 
+                alt="projeto React1" title="Clique aqui para ir direto para o site"></abbr>
+              <h3>Projeto de estudo</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando React </p>
+                <a target="_blank" href="https://github.com/devCintia/Quest-React-Base"><p>🔗 Ver no GitHub </p></a> 
+            </a>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h2>Envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/cintia-dietrich-bersch"
+                target="_blank"" class="outer-shadow"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5553984061888" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/devCintia" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/cintia.d.b0/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
